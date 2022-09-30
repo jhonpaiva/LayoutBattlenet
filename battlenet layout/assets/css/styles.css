@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color:#15171e;
+    box-sizing: border-box;
+    height: 2000px;
+}
+.logo {
+    cursor: pointer;
+}
+.header {
+    margin: 1.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botoes-cabecalho {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+.btn-link {
+    padding-left: 30px;
+    color: #0093fe;
+}
+.btn-link-txt {
+    color: #b3b3b5;
+}
+.btn-link-txt3 {
+    color: #60768d;
+}
+
+.barras {
+    display: flex;
+    margin-bottom: 5px;
+    margin: 0.5%;
+
+}
+.barra-1 {
+    background-color: #23252b;
+    width: 59.65%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0.5%;
+}
+.barra-2 {
+    background-color: #23252b;
+    width: 25%;
+    border-radius: 5px;
+    margin: 0.5%;
+}
+.barra-3 {
+    background-color: #23252b;
+    width: 3%;
+    border-radius: 5px;
+    margin: 0.5%;
+}
+.barra-4 {
+    background-color: #23252b;
+    width: 8%;
+    border-radius: 5px;
+    margin: 0.5%;
+}
+.btn-pesq {
+    background-color: #23252b;
+    height: 40px;
+    width: 12%;
+    border-radius: 5px;
+    border: none;
+    color: #b3b3b5;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.btn-pesq:hover {
+    background-color: #434950;
+}
+.btn-pesq1 {
+    background-color: #23252b;
+    height: 40px;
+    width: 340px;
+    border-radius: 5px;
+    border: none;
+    color: #b3b3b5;
+    font-weight: bold;
+    cursor: text;
+    text-align: start;
+    padding-left: 10px;
+    transition-duration: 0.3s;
+    margin-left: 0.1%;
+}
+.btn-pesq1:hover {
+    background-color: #434950;
+}
+.btn-pesq2 {
+    background-color: #23252b;
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+    border: none;
+    color: #b3b3b5;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.btn-pesq2:hover {
+    background-color: #434950;
+}
+.btn-pesq3 {
+    background-color: #23252b;
+    height: 40px;
+    width: 110px;
+    border-radius: 5px;
+    border: none;
+    color: #6cdb00;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.btn-pesq3:hover {
+    background-color: #434950;
+}
+
+.btn-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    margin: 1%;
+    max-width: 100%;
+}
+.menu-low-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.low-banner-btn-seta {
+    background-color: #15171e;
+    border: none;
+    color: #626264;
+    padding-right: 7px;
+    cursor: pointer;
+}
+.low-banner-btn-seta:hover {
+    color: #0093fe;
+    border: none;
+}
+.low-banner-btn {
+    width: 35px;
+    height:5px;
+    background-color: #626264;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+
+}
+.low-banner-btn:hover {
+    background-color: #0093fe;
+    border: none;
+}
+.icons {
+    margin: 1%;
+    display: flex;
+    margin-bottom: 10%;
+}
+.botoes-hud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    background-color: #23252b;
+    height: 55px;
+    width: 100%;
+    border-radius: 4px;
+}
+.botao-hud {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    margin: 0.3%;
+    background-color: #434950;
+}
+.botao-hud:hover {
+    background-color: #0093fe;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.img-card {
+    max-width: 240.500px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-bottom: 5%;
+}
+
+.card1 {
+    margin: 0.5%;
+    display: flex;
+    flex-direction: column;
+    max-width: 240.500px;
+    height: 400px;
+    background-color: #23252b;
+    border-radius: 5px;
+}
