@@ -8,7 +8,6 @@
 body {
     background-color:#15171e;
     box-sizing: border-box;
-    height: 2000px;
 }
 .logo {
     cursor: pointer;
@@ -149,10 +148,15 @@ a {
     color: #626264;
     padding-right: 7px;
     cursor: pointer;
+    transition-duration: 0.5s;
 }
 .low-banner-btn-seta:hover {
     color: #0093fe;
     border: none;
+    width: 40px;
+    transition-duration: 0.5s;
+    margin-left: 0.5%;
+
 }
 .low-banner-btn {
     width: 35px;
@@ -162,11 +166,15 @@ a {
     cursor: pointer;
     border: none;
     border-radius: 2px;
-
+    transition-duration: 0.5s;
 }
 .low-banner-btn:hover {
     background-color: #0093fe;
     border: none;
+    width: 40px;
+    height:7px;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
 }
 .icons {
     margin: 1%;
@@ -194,26 +202,149 @@ a {
 }
 .botao-hud:hover {
     background-color: #0093fe;
+    margin: 1%;
+    width: 50px;
+    height: 50px;
 }
 
+.recomendado {
+    color: #fff;
+    margin-left: 1.5%;
+    cursor: pointer;
+}
 .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 .img-card {
-    max-width: 240.500px;
+    max-width: 305.500px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     padding-bottom: 5%;
 }
-
-.card1 {
-    margin: 0.5%;
+.texto-card {
+    padding: 5%;
+    padding-left: 7%;
+}
+.h3card-sup {
+    color: #cdcdcf;
+    font-size: 19px;
+    padding-bottom: 3%;
+}
+.p-card1 {
+    color: #ffb400;
+    font-size: 14px;
+    padding-bottom: 3%;
+}
+.p-card2{
+    color: #c2c2c4; 
+    font-size: 12px;
+}
+.price {
+    color: #cdcdcf; 
+    font-size: 17px;
+    font-weight: bold;
     display: flex;
-    flex-direction: column;
-    max-width: 240.500px;
-    height: 400px;
+}
+
+.btnteste {
     background-color: #23252b;
+    border: none;
     border-radius: 5px;
+    max-width: 305.500px;
+    height: 400px;
+    border-radius: 5px;
+    margin-top: 1.7%;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.btnteste:hover {
+    background-color: #434950;
+    border: none;
+    margin: 1.5%;
+}
+
+.low-banner {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #2e2523;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+
+}
+.low-img {
+    margin: 7%;
+    margin-right: 2.7%;
+    width: 50%;
+    max-height: 340px;
+    cursor: pointer;
+}
+
+.texto-esquerda-low {
+    margin: 5%;
+    color: #fff;
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 400px;
+    margin-top: 4.5%;
+}
+
+.plow {
+    font-size: 55px;
+    margin: 2%;
+    margin-bottom: 5%;
+    margin-left: 0;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.plow1 {
+    font-size: 23px;
+    margin-left: 0;
+    font-weight: bold;
+}
+.plow2 {
+    margin: 8%;
+    font-size: 18px;
+    margin-left: 0;
+    margin-bottom: 1%;
+}
+
+.low-btn {
+    background-color: #0074e0;
+    padding: 3.5%;
+    border-radius: 5px;
+    width: 300px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    border: none;
+    margin-top: 7%;
+}
+.low-btn:hover {
+    background-color: #054b7e;
+}
+
+.low-btn2 {
+    background-color: #586077;
+    padding: 3%;
+    border-radius: 5px;
+    width: 150px;
+    margin-left: 3%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    border: none;
+
+}
+.low-btn2:hover {
+    background-color: #434950;
 }
