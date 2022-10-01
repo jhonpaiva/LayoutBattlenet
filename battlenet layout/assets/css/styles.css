@@ -179,7 +179,7 @@ a {
 .icons {
     margin: 1%;
     display: flex;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .botoes-hud {
     display: flex;
@@ -192,19 +192,17 @@ a {
     border-radius: 4px;
 }
 .botao-hud {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    width: 4%;
+    height: 80%;
     cursor: pointer;
     transition-duration: 0.5s;
     margin: 0.3%;
     background-color: #434950;
+    border: none;
 }
 .botao-hud:hover {
     background-color: #0093fe;
     margin: 1%;
-    width: 50px;
-    height: 50px;
 }
 
 .recomendado {
@@ -248,7 +246,7 @@ a {
     display: flex;
 }
 
-.btnteste {
+.btn-card {
     background-color: #23252b;
     border: none;
     border-radius: 5px;
@@ -260,20 +258,20 @@ a {
     transition-duration: 0.5s;
 }
 
-.btnteste:hover {
+.btn-card:hover {
     background-color: #434950;
     border: none;
-    margin: 1.5%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
-
 .low-banner {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-    background-color: #2e2523;
+    background-color: #151824;
     margin-top: 5%;
     display: flex;
     flex-direction: row;
-
+    margin-bottom: 11%;
 }
 .low-img {
     margin: 7%;
@@ -330,7 +328,13 @@ a {
 .low-btn:hover {
     background-color: #054b7e;
 }
-
+.link-download{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 10px;
+}
 .low-btn2 {
     background-color: #586077;
     padding: 3%;
@@ -347,4 +351,36 @@ a {
 }
 .low-btn2:hover {
     background-color: #434950;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #b3b3b5;
+}
+.linguagem {
+    cursor: pointer;
+}
+.battlenetfooter {
+    width: 28%;
+    margin: 3%;
+    cursor: pointer;
+}
+
+.copy {
+    margin: 1%;
+}
+
+.classificacao {
+    margin: 2%;
+}
+
+#block {
+    color: #0093fe;
+    padding-right: 6px;
+}
+
+#block1 {
+    color: #0093fe;
 }
