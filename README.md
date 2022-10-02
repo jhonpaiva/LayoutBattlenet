@@ -1,4 +1,4 @@
 # LayoutBattlenet
 layout HTML+CSS Battlenet
 
-https://layoutbattlenet.netlify.app/
+https://battlenet-layout.netlify.app/
